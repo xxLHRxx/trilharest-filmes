@@ -31,7 +31,7 @@ public class FilmeTest {
                 LocalDate.of(2017, 10, 1),
                 LocalDate.of(2017,10, 30));
         boolean resultado = filme.emExibicao();
-        Assert.assertFalse(resultado);
+        Assert.assertTrue(resultado);
 
     }
 
