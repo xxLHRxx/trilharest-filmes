@@ -4,5 +4,5 @@ deploy:
     secure: De50ehEqz525KqsMc1L+fAIFfVSAV0u4xgo2aYzzDbxjR1YLiioJG0twBO6PfwEX8LFNimSwaM2uJJCpnYrsVaX/pzzo5+eYEEgJ5jfcepB5dDTmExPKX3s68zAan/HNHo+r0kHqAJY8/AUtivMGILQIYcZKnzzPeyRYF+/07fWF475G+dAa9MFi/Pa5b8AArwpDLd6/56ywgtl+AbmmPhwbvechEz++qZm1I4PE03u6lp2QUyzee6pYVfjSoilj51hK53BiIEUqkR1MHx3SorfDRcRj0/+NcMhoqh+hZHGgmadrnkLjV1J4gL9lhiCvDPhKVwmyoQRpQQ8Lb7L9nmhUYpXZ/CmXFOPgTYfeDO+QV3DH5SZP5ZEUT/S+tD+4J2JeDmqNizwX5Vy6SZfSEV6nsdz9KF0Pc6EeJaf2wI3mYc8YkD60v6ljC9dq8TJxa204NNAQpm+PAtVFXONUFW34Kmy1rTLHJ0NO/eantikw29T5/IIGu29NBPBOuQXj8qD//tVS5leMJKGt/T9hV4+Fw0PZFiDOS3fmXs3V3u/zEVRN3RT+1YRY4z5bb9Oti4wgFgesDRQoJpu2sPUMsuQqsTVikobm38zj1IxnSIaMkV58FzqXQQVcLa7+NQTML2Z0804i7WJvNNJ0jICe6gBQaKJgvyTKuJjbFFI5kI8=
   provider: heroku
   app:
-    staging: xxlhrxx-trilharest-filmes-staging
-    master: xxlhrxx-trilharest-filmes-production
+    staging: xxlhrxx-trilharest-filmes-stg
+    master: xxlhrxx-trilharest-filmes-prd
