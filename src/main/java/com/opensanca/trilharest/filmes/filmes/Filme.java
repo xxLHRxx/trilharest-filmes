@@ -6,11 +6,25 @@ import java.util.UUID;
 
 public class Filme {
 
+    private UUID id;
     private String nome;
     private String sinopse;
     private Duration duracao;
     private LocalDate inicioExibicao;
     private LocalDate fimExibicao;
+
+    public Filme() {
+
+    }
+
+    public Filme(UUID id, String nome, String sinopse, Duration duracao, LocalDate inicioExibicao, LocalDate fimExibicao) {
+        this.id = id;
+        this.nome = nome;
+        this.sinopse = sinopse;
+        this.duracao = duracao;
+        this.inicioExibicao = inicioExibicao;
+        this.fimExibicao = fimExibicao;
+    }
 
     public UUID getId() {
         return id;
@@ -19,8 +33,6 @@ public class Filme {
     public void setId(UUID id) {
         this.id = id;
     }
-
-    private UUID id;
 
     public String getNome() {
         return nome;
@@ -60,6 +72,11 @@ public class Filme {
 
     public void setFimExibicao(LocalDate fimExibicao) {
         this.fimExibicao = fimExibicao;
+    }
+
+    public boolean emExibicao() {
+        LocalDate hoje = LocalDate.now();
+        return getInicioExibicao().isEqual(hoje) || getInicioExibicao().isBefore(hoje) && getFimExibicao().isAfter(hoje);
     }
 
 }

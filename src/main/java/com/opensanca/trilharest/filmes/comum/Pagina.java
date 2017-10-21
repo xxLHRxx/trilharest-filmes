@@ -19,7 +19,7 @@ public class Pagina<T> {
         return totaldeRegistros;
     }
 
-    public void setTotaldeRegistros(Integer totaldeRegistros) {
+    public void setTotalDeRegistros(Integer totaldeRegistros) {
         this.totaldeRegistros = totaldeRegistros;
     }
 
